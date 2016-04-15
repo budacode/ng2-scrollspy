@@ -1,0 +1,125 @@
+{
+  "_args": [
+    [
+      "budacode-ng2-scrollspy",
+      "/Users/marcellkiss/test"
+    ]
+  ],
+  "_from": "budacode-ng2-scrollspy@latest",
+  "_id": "budacode-ng2-scrollspy@0.0.16",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/budacode-ng2-scrollspy",
+  "_nodeVersion": "5.6.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/budacode-ng2-scrollspy-0.0.16.tgz_1460713844724_0.9127263277769089"
+  },
+  "_npmUser": {
+    "email": "balazs.gallay.budacode@gmail.com",
+    "name": "carathorys"
+  },
+  "_npmVersion": "3.8.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "budacode-ng2-scrollspy",
+    "raw": "budacode-ng2-scrollspy",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/budacode-ng2-scrollspy/-/budacode-ng2-scrollspy-0.0.16.tgz",
+  "_shasum": "bec4a458425cad6dcdd40d3ff34bcb59d102fe13",
+  "_shrinkwrap": null,
+  "_spec": "budacode-ng2-scrollspy",
+  "_where": "/Users/marcellkiss/test",
+  "author": {
+    "email": "jonnybgod@gmail.com",
+    "name": "João Ribeiro",
+    "url": "http://github.com/JonnyBGod"
+  },
+  "bugs": {
+    "url": "http://github.com/budacode/ng2-scrollspy/issues"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "immutable": "^3.7.6"
+  },
+  "description": "Angular2 ScrollSpy Service",
+  "devDependencies": {
+    "angular2": "~2.0.0-beta.12",
+    "commitizen": "~2.7.2",
+    "cz-conventional-changelog": "~1.1.5",
+    "es6-shim": "^0.35.0",
+    "jasmine-core": "~2.4.1",
+    "karma": "~0.13.21",
+    "karma-chrome-launcher": "~0.2.2",
+    "karma-firefox-launcher": "~0.1.7",
+    "karma-jasmine": "~0.3.6",
+    "karma-typescript-preprocessor": "0.0.21",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "semantic-release": "^4.3.5",
+    "systemjs": "~0.19.6",
+    "tslint": "^3.2.1",
+    "typescript": "~1.8.9",
+    "typings": "^0.6.10",
+    "zone.js": "~0.6.4"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "bec4a458425cad6dcdd40d3ff34bcb59d102fe13",
+    "tarball": "https://registry.npmjs.org/budacode-ng2-scrollspy/-/budacode-ng2-scrollspy-0.0.16.tgz"
+  },
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "gitHead": "61e76f91b4b51a3e28d66228e97646d3600cebef",
+  "homepage": "https://github.com/budacode/ng2-scrollspy#readme",
+  "keywords": [
+    "angular2",
+    "ng2",
+    "angular",
+    "scrollspy",
+    "scroll",
+    "spy",
+    "index",
+    "parallax",
+    "infinite",
+    "infinite-scroll",
+    "affix",
+    "effect"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "maintainers": [
+    {
+      "email": "balazs.gallay.budacode@gmail.com",
+      "name": "carathorys"
+    }
+  ],
+  "name": "budacode-ng2-scrollspy",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/budacode/ng2-scrollspy.git"
+  },
+  "scripts": {
+    "build": "./clean.sh && ./node_modules/.bin/typings install && tsc",
+    "commit": "git cz",
+    "lint": "tslint ./src/*.ts ./src/**/*.ts",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "test": "karma start"
+  },
+  "typings": "./dist/index.d.ts",
+  "version": "0.0.16"
+}
